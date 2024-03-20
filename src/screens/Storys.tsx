@@ -17,7 +17,6 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import {snapPoint, useVector} from 'react-native-redash';
-import {useMemo} from 'react';
 
 interface StoryProps {
   navigation: NavigationProp<SnapchatRoutes, 'Story'>;
