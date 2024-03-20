@@ -6,7 +6,7 @@ import {Story} from '../utils/Model';
 const margin = 16;
 const borderRadius = 5;
 const width = Dimensions.get('window').width / 2 - margin * 2;
-
+ 
 const styles = StyleSheet.create({
   container: {
     width,
